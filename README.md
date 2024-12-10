@@ -70,3 +70,22 @@ json
   "message": "your-message"  
 }
  ```
+---  
+
+## Plano de hospedagem Azure Functions
+Ao criar um aplicativo de funções no Azure, você precisa escolher uma opção de hospedagem para o aplicativo. O Azure oferece estas opções de hospedagem para seu código de função:
+
+Opção de hospedagem	             Serviço	                             Disponibilidade	                 Suporte a contêiner  
+Plano de Consumo Flexível	       Azure Functions	                     GA (em disponibilidade geral)	   Nenhum  
+Plano Premium	                   Azure Functions	                     GA	                              Linux  
+Plano dedicado	                  Azure Functions	                     GA                              	Linux  
+Aplicativos de Contêiner	        Aplicativos de Contêiner do Azure	   GA	                              Linux  
+Plano de Consumo	                Azure Functions	                     GA                               Nenhum  
+
+As opções de hospedagem do Azure Functions são facilitadas pela infraestrutura do Serviço de Aplicativo do Azure em máquinas virtuais do Linux e do Windows. A opção de 
+hospedagem que você escolher determinará os seguintes comportamentos:  
+
+- Como o aplicativo de funções é dimensionado.
+- Os recursos disponíveis para cada instância do aplicativo de funções.
+- Suporte para funcionalidades avançadas, como conectividade à Rede Virtual do Azure.
+- Suporte para contêineres do Linux.
