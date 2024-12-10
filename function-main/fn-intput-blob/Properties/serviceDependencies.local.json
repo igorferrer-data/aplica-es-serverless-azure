@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ServiceLinker/locations/eastus/connectors/livedio_CFEBEF5078",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/stalivediodev001",
+      "type": "storage.azure",
+      "connectionId": "live-dio",
+      "dynamicId": null
+    }
+  }
+}

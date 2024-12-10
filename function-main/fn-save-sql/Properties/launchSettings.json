@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fn_save_sql": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7186",
+      "launchBrowser": false
+    }
+  }
+}

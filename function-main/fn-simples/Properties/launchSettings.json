@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fn_simples": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7276",
+      "launchBrowser": false
+    }
+  }
+}
